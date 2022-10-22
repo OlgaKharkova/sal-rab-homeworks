@@ -1,9 +1,9 @@
 function renderCartItem(item) {
     const product = item;
-product = {id: 1, title: 'Пицца', count: 5, price: '500.00'};
-let itemCountText ='';
+product = {id: 1, title: `Пицца`, count: 5, price: `500.00`};
+let itemCountText =``;
 itemCountText = itemCountText + count;
-itemCountText = itemCountText + "x";
+itemCountText = itemCountText + `x`;
 itemCountText = itemCountText + price;
 itemCountText = itemCountText + ` ₽ = `;
 let sum;

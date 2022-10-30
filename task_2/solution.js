@@ -35,7 +35,7 @@ function calcDiscount(sum, min, discount) {
     let discountPrice;
     let discountSum;
     if (productsSum >= discountMinSum){
-        discountSum = productsSum/100*discountSum;
+        discountSum = productsSum/100*discountPart;
       
     } else {
         discountSum = 0;

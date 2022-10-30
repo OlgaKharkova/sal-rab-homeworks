@@ -5,7 +5,7 @@ let itemCountText = ` `;
 itemCountText += count;
 itemCountText += ` x`;
 itemCountText += price;
-itemCountText += ` ₽ = `;
+itemCountText += ` ₽ =`;
 let sum = price * count;
 itemCountText += sum;
 itemCountText += ` ₽`;

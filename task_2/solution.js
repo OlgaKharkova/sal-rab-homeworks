@@ -76,7 +76,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
 
     let shippingSum = calcShipping(totalSum, shippingFreeMinSum, shippingPrice); // не изменяйте эту строку!!!
     totalSum = totalSum + shippingSum;
-    let freeShipping;
+    let freeShipping = shippingSum == 0;
     freeShipping != shippingPrice;
 
     // создайте переменную freeShipping

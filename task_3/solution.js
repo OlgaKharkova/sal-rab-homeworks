@@ -1,6 +1,5 @@
 function renderCartItem(item) {
     const product = item;
-product = {id: id, title:  title, count: count, price: price};
 let itemCountText = ` `;
 itemCountText += product.count;
 itemCountText += `* `;

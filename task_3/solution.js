@@ -1,13 +1,14 @@
 function renderCartItem(item) {
     const product = item;
 product = {id: id, title:  title, count: count, price: price};
-let itemCountText = product.count * price;
-itemCountText = ' ';
-itemCountText += count;
-itemCountText += x;
-itemCountText += price;
-let sum = product.count*price;
+let itemCountText = ` `;
+itemCountText += product.count;
+itemCountText += `* `;
+itemCountText += product.price;
+itemCountText += `₽ = `
+let sum = product.count * product.price;
 itemCountText += sum;
+itemCountText += `₽ `;
 
 
 
